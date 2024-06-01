@@ -19,6 +19,7 @@ class StockProfit {
         {
             int buy = prices[i];
             int temp[] = Arrays.copyOfRange(prices, (i+1), prices.length);
+            // Sort to get highest selling day
             Arrays.sort(temp);
             int sell = temp[temp.length-1];
             currentProfit = sell - buy;
