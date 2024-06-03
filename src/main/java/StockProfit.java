@@ -23,6 +23,7 @@ class StockProfit {
             Arrays.sort(temp);
             int sell = temp[temp.length-1];
             currentProfit = sell - buy;
+            // Compare
             if(currentProfit>maxProfit)
             {
                 maxProfit = currentProfit;
