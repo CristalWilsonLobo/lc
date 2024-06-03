@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class StockProfit {
     public int maxProfit(int[] prices) {
 /*
