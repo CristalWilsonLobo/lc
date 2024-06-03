@@ -5,7 +5,7 @@ public class StockProfitTest {
     
     @Test
     public void testMaxProfit() {
-        Solution solution = new Solution();
+        StockProfit solution = new StockProfit();
         
         // Test case 1: Regular case with a positive profit
         int[] prices1 = {7, 1, 5, 3, 6, 4};
